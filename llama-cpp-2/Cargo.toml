@@ -12,9 +12,6 @@ llama-cpp-sys-2 = { path = "../llama-cpp-sys-2", version = "0.1.69" }
 thiserror = { workspace = true }
 tracing = { workspace = true }
 
-[dev-dependencies]
-
-
 [features]
 default = ["openmp", "android-shared-stdcxx"]
 cuda = ["llama-cpp-sys-2/cuda"]
